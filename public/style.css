@@ -1,0 +1,31 @@
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  gap: 100px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: 1px solid #aeaeae7c;
+}
+
+button {
+  border: none;
+  background-color: dodgerblue;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 20px;
+}
